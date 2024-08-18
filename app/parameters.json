@@ -1,0 +1,38 @@
+{
+        "Basics": {
+                "K" : "K",
+                "R":"R",
+                "R Circuit": "R_CIRCUIT",
+                "Transmission": "TRANSMISSION",
+                "Transmission Efficiency": "TRANSMISSION_EFFICIENCY",
+                "Car Mass (Kg)": "CAR_MASS",
+                "Wheel Radius": "WHEEL_RADIUS",
+                "Bearing's Roling Resistance": "BEARING_ROLLING_RESISTANCE",
+                "Toe": "TOE",
+                "Damp Ratio": "DAMP_RATIO"
+        },
+
+        "Electricity": {
+                "Voltage Limit": "VOLTAGE_LIMIT",
+                "Battery Number": "BATTERY_NUMBER",
+                "Total Charge": "TOTAL_CHARGE",
+                "No-Load Current": "NO_LOAD_CURRENT"
+        },
+
+        "Constants": {
+                "Magnet Constant": "MAGNET_CONSTANT",
+                "Winding Constant": "WINDING_CONSTANT"
+        },
+
+        "Coefficients": {
+                "Drag Coefficient": "COEFF_DRAG",
+                "Slip Coefficient" :"SLIP_COEFF",
+                "Rolling Resistance Coefficient": "COEFF_ROLLING_RESISTANCE"
+        },
+        
+        "Thermodynamics": {
+                "Temperature": "TEMPERATURE",
+                "Temperature Reference": "TEMPERATURE_REFERENCE"
+        }
+
+}

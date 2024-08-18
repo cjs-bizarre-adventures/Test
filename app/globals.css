@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 255, 255, 255;
+    --background-end-rgb: 255, 255, 255;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  align-items: center;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 0;
+  margin-top: 0%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+  text-align: right;
+  margin-top: 0px;
+  padding: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: grid;
+}
+
+.input_area {
+  padding: 20px;
+}
+
+button {
+  background-color: rgb(101, 247, 16);
+  font-weight: bold;
+  align-content: center;
+  align-self: center;
+  padding: 0 0.3rem;
+  border-radius: 25px;
+  line-height: 1.6;
+  width: 95%;
+  height: auto;
+  border: 1px;
+  border-width: 0 1px;
+  font-size: 25;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  transition: all 0.4s ease;
+}
+
+h2 {
+  align-self: center;
+  font-weight: bold;
+}
+
+.Divider {
+  background-color: #65f710;
+  border-radius: 25px;
+  width: 95%;
+  text-align: center;
+  height: auto;
+  border: 1px;
+  border-width: 0 1px;
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-top: 1%;
+  margin-bottom: 0%;
+  
+}
+.sub_button {
+  background-color: rgb(47, 104, 14);
+  color: #ffffff;
+  height: auto;
+  font-weight: bold;
+  align-content: center;
+  align-self: center;
+  padding: 0 0.3rem;
+  border-radius: 25px;
+  line-height: 1.6;
+  width: 10%;
+  border: 1px;
+  border-width: 0 1px;
+  transition: all 0.4s ease;
+  margin-top: 0.5%;
+  margin-right: 45%;
+  margin-left: 45%;
+
+}
+
+button:hover{
+  background-color: rgb(188, 255, 149);
+  color: black;
+
+}
+
+img {
+  align-self: left;
+  margin-top: 0%;
+  margin-right: 0;
+}
+
+label{
+  font-weight: bold;
+}
+
+input{
+  font-weight: normal;
+  align-self: center;
+  align-content: center;
+}
+
+label {
+  align-self: center;
+  margin-left: 45%;
+}
+
+footer {
+  display:grid;
+  bottom: 0;
+  margin-top: 20px;
+  height: 70px;
+  width: 100%;
+  background-color: rgb(188, 255, 149);
+  color: black;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
